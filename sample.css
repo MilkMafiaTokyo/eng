@@ -1,0 +1,151 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+    background-color: #fff;
+    color: black;
+    font-family: "HarryP";
+    /* border-top: 10px solid #2c3e50; */
+    
+}
+h1{
+    font-family: "HarryP";
+    font-size: 40px;
+    /* background-color: rgb(61, 140, 186);
+    margin-top: 0%; */
+}
+header{
+    /* background-color: #fff; */
+    /* border-bottom: 1px solid #ccc;  */
+    text-align: center;
+    margin-top: 70px;
+}
+main{
+    /* border-bottom:1px solid #ccc;  */
+    margin: auto;
+    background-color: rgb(61, 140, 186);
+    width: 600px;
+    height: 350px;
+    text-align: center;
+    border-radius:5px;
+}
+.word{
+    width: 80%;
+    height: 10%;
+    margin-top: 30px;
+    border-radius:5px;
+}
+.meaning{
+    width: 80%;
+    height: 10%;
+    margin-top: 20px;
+    border-radius:5px;
+}
+.example{
+    width: 80%;
+    height: 30%;
+    margin-top: 20px;
+    border-radius:5px;
+}
+.button{
+    margin-top: 21px;
+    justify-content: center;
+    display: flex;
+}
+.save{
+    background-color: rgb(30, 30, 99);
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    border-radius:5px;
+}
+.clear{
+    background-color: rgb(202, 22, 22);
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    border-radius:5px;
+    /* text-align: center; */
+    /* margin-left: 670px; */
+    /* margin: 0 auto; */
+}
+
+.link{
+    margin-top: 110px;
+    background-color: rgb(227, 227, 22);
+    width: 200px;
+    height: 55px;
+    border-radius:30px;
+    font-size: 20px;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.link a{
+  text-decoration: none;
+}
+.moji{
+    text-align: center;
+    color: #000000;
+    
+}
+.table{
+    background-color: #ffffff83;
+    margin-top: 80px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+tr{
+    color: #000000;
+    
+}
+footer{
+    background-color: #1b0606;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #2c3e50;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    /* background: ; */
+    color:#fff;
+}
+.back{
+    background-color: rgb(61, 140, 186);
+    color: black;
+    border-radius:30px;
+    width: 200px;
+    height: 55px;
+    /* margin-top: 100px; */
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.back a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+}
